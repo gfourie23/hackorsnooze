@@ -19,11 +19,10 @@ $body.on("click", "#nav-all", navAllStories);
 function navSubmitStoryClick(evt) {
   console.debug("navSubmitStoryClick", evt);
   hidePageComponents();
-  $allStoriesList.show();
   $newStoryForm.show();
 }
 
-$navSubmitStory.on("click", navSubmitStoryClick);
+$body.on("click", "nav-submit-story",navSubmitStoryClick);
 
 //new function to open favorites list on nav bar click
 function navFavoritesClick(evt) {
