@@ -22,7 +22,7 @@ function navSubmitStoryClick(evt) {
   $newStoryForm.show();
 }
 
-$body.on("click", "nav-submit-story",navSubmitStoryClick);
+$body.on("click", "#nav-submit-story",navSubmitStoryClick);
 
 //new function to open favorites list on nav bar click
 function navFavoritesClick(evt) {
